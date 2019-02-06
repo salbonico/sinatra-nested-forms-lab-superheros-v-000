@@ -8,5 +8,10 @@ class App < Sinatra::Base
       erb :index
     end
 
+    post '/teams'
+
+    erb :team
+    end
+
 
 end
