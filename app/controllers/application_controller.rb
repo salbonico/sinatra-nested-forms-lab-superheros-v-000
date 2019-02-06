@@ -8,7 +8,7 @@ class App < Sinatra::Base
       erb :index
     end
 
-    post '/teams'
+    post '/teams' do
     @team = params[:team]
 
 
